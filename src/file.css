@@ -12,20 +12,31 @@
   --blue: #1085c5;
 }
 
+body {
+  width: 1440px;
+  height: 914px;
+}
+
 header,
 main,
 footer {
-  max-width: 1110px;
   text-align: center;
-  margin: 100px 0;
   font: var(--font-family-regular);
+  font-family: "Open Sans", sans-serif;
+}
+
+.content {
+  width: 1110px;
+  padding: 100px 0;
+  left: 165px;
+  top: 100px;
 }
 
 h1,
 h2,
 h3 {
   line-height: 1.2em;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Neucha", cursive;
 }
 
 h1 {
@@ -36,4 +47,85 @@ h2 {
 }
 h3 {
   font-size: 34px;
+}
+
+header {
+  position: relative;
+}
+
+header::before {
+  content: "";
+  background-image: url(../img/background.png);
+  background-color: #f5f4f0;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 914px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1; /* тут должно быть на 90% прозрачность */
+  z-index: -1;
+}
+
+.header-img {
+  position: absolute;
+  width: 1082.81px;
+  height: 525px;
+  top: 55px;
+  left: 461px;
+  gap: 0px;
+  opacity: 0px;
+  z-index: 1;
+}
+
+.header-title {
+  position: relative;
+  width: 1138px;
+  height: 258px;
+  top: 100px;
+  left: 165px;
+}
+
+.header-title h1 {
+  margin: 0;
+  text-align: left;
+}
+
+.orange {
+  color: var(--main);
+}
+
+.header-text-one {
+  position: absolute;
+  width: 540px;
+  height: 141px;
+  top: 543px;
+  left: 165px;
+  text-align: left;
+  color: #2a2626;
+}
+
+.header-text-two {
+  position: absolute;
+  width: 540px;
+  height: 186px;
+  top: 543px;
+  left: 735px;
+  text-align: left;
+  color: #2a2626;
+}
+
+.header-a {
+  margin-top: 30px;
+  position: absolute;
+  font-weight: 700;
+  background-color: var(--main);
+  padding: 12px 24px;
+}
+
+.header-a a {
+  color: var(--white);
+  text-decoration: none;
 }
