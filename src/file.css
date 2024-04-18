@@ -71,13 +71,9 @@ header::before {
 
 .header-img {
   position: absolute;
-  width: 1082.81px;
   height: 525px;
   top: 55px;
-  left: 461px;
-  gap: 0px;
-  opacity: 0px;
-  z-index: 1;
+  right: -270px;
 }
 
 .header-title {
@@ -128,4 +124,40 @@ header::before {
 .header-a a {
   color: var(--white);
   text-decoration: none;
+}
+
+section {
+  position: relative;
+  width: 1440px;
+  height: 914px;
+  top: 914px;
+}
+
+.title-who-distortions {
+  position: absolute;
+  width: 1110px;
+  height: 146px;
+  top: 100px;
+  left: 165px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.title-who-distortions h1 {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.title-who-distortions span {
+  margin-bottom: 30px;
+}
+.video-who-distortions {
+  position: relative;
+  width: 919px;
+  height: 569px;
+  top: 329px;
+  left: 261px;
+}
+.video {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
