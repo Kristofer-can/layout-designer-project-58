@@ -14,7 +14,6 @@
 
 body {
   width: 1440px;
-  height: 914px;
 }
 
 header,
@@ -25,13 +24,15 @@ footer {
   font-family: "Open Sans", sans-serif;
 }
 
-.content {
+section {
   width: 1110px;
-  padding: 100px 0;
   left: 165px;
   top: 100px;
 }
 
+p {
+  color: #2a2626;
+}
 h1,
 h2,
 h3 {
@@ -139,8 +140,6 @@ section {
   height: 146px;
   top: 100px;
   left: 165px;
-  gap: 0px;
-  opacity: 0px;
 }
 
 .title-who-distortions h1 {
@@ -155,9 +154,69 @@ section {
   position: relative;
   width: 919px;
   height: 569px;
-  top: 329px;
+  top: 429px;
   left: 261px;
 }
 .video {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.five-cognitive-distortions {
+  width: 1440px;
+  height: 1114px;
+}
+
+.blok-five-cognitive-distortions {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-template-rows: 150px, 150px;
+  grid-gap: 20px;
+  background: #42413c;
+  width: 1110px;
+  height: 691px;
+  left: 165px;
+  top: 200px;
+  margin-bottom: 100px;
+}
+
+.five-cognitive-distortions::before {
+  content: "";
+  background-color: #42413c;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.five-cards h1 {
+  font-size: 52px;
+}
+.five-cards {
+  padding: 0 24px;
+  background-color: #f5f4f0;
+  text-align: left;
+}
+.five-cards-color {
+  background: #42413c;
+}
+
+.a-five-cognitive-distortions {
+  text-decoration: none;
+}
+
+.black {
+  color: #42413c;
+  margin-bottom: 40px;
+  font-size: 64px;
+  font-family: "Neucha", cursive;
+  line-height: 1;
+}
+
+.h2-five-cognitive-distortions {
+  font-size: 34px;
 }
