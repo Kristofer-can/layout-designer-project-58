@@ -24,7 +24,7 @@ footer {
   font-family: "Open Sans", sans-serif;
 }
 
-section {
+section > * {
   width: 1110px;
   left: 165px;
   top: 100px;
@@ -54,7 +54,7 @@ header {
   position: relative;
 }
 
-header::before {
+.background-image::before {
   content: "";
   background-image: url(../img/background.png);
   background-color: #f5f4f0;
@@ -219,4 +219,46 @@ section {
 
 .h2-five-cognitive-distortions {
   font-size: 34px;
+}
+
+.effect {
+  padding: 100px 0;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 30px;
+  text-align: left;
+  max-width: 1110px;
+  left: 165px;
+  top: 100px;
+}
+
+.p1-text-IKEA-effect {
+  font-size: 24px;
+  font-family: "Neucha", cursive;
+  color: #908d8b;
+  margin: 100px 0 20px;
+}
+
+.text-IKEA-effect h1 {
+  margin: 0;
+}
+.p2-text-IKEA-effect {
+  font-size: 34px;
+  font-family: "Neucha", cursive;
+  line-height: 1;
+}
+
+.the-title-phrase {
+  background: #b09a81;
+  padding: 5px;
+  margin: 0px 0 20px;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.mp {
+  top: 0;
+  margin: 0;
 }
