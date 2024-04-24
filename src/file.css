@@ -50,7 +50,7 @@ h3 {
 .background-image::before {
   content: "";
   /* pointer-events: none; */
-  background-image: url(../img/background.png);
+  background-image: url(img/background.png);
   width: 100%;
   position: absolute;
   left: 0;
@@ -352,7 +352,7 @@ button {
 }
 
 button::before {
-  content: url(../img/send.svg);
+  content: url(img/send.svg);
   /* background: url(../img/send.svg); */
   width: 70px;
   height: 50px;
