@@ -78,10 +78,11 @@ h3 {
 .content {
   position: relative;
   max-width: 1110px;
-  height: 714px;
+  height: 914px;
   left: 165px;
   top: 100px;
   bottom: 100px;
+  padding: 0;
 }
 
 .header-title h1,
@@ -97,12 +98,13 @@ h3 {
   position: absolute;
   height: 525px;
   /* width: 1083px; */
-  top: -55px;
+  top: -50px;
   right: -270px;
+  z-index: 4; /* измениение для 3 проверки этого не было */
 }
 
 .header-text {
-  margin-top: 185px;
+  margin-top: 180px; /* измениение для 3 проверки бфло 185*/
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
@@ -188,12 +190,13 @@ section {
   position: relative;
   display: grid;
   grid-template-columns: repeat(3, 350px);
-  grid-template-rows: 150px, 150px;
+  grid-template-rows: 90px, 140px;
   grid-gap: 20px;
   background: var(--main-dark);
   height: 691px;
   top: 200px;
   margin-bottom: 100px;
+  padding: 0;
 }
 
 .white {
@@ -212,15 +215,17 @@ section {
   z-index: -1;
 }
 
-.five-cards h1 {
+.five-cards-color h1 {
   font-size: 52px;
+  margin: 0;
+  padding: 0;
 }
 .five-cards {
   margin: 0;
-  padding: 0 24px;
+  padding: 0 24px 24px 24px;
   background-color: #f5f4f0;
   text-align: left;
-  height: 350px;
+  height: auto;
 }
 
 .five-cards-hover:hover,
@@ -236,6 +241,15 @@ section {
   text-decoration: none;
 }
 
+.a-five-cognitive-distortions h2 {
+  padding: 0;
+  margin: 0;
+}
+.a-five-cognitive-distortions p {
+  margin: 0;
+  padding-top: 10px;
+}
+
 .black {
   color: var(--main-dark);
   margin-top: 24px;
@@ -246,6 +260,8 @@ section {
 }
 
 .h2-five-cognitive-distortions {
+  margin-top: 0;
+  padding: 0;
   font-size: 34px;
   font-weight: 400;
 }
