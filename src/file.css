@@ -104,7 +104,7 @@ h3 {
 }
 
 .header-text {
-  margin-top: 180px; /* измениение для 3 проверки бфло 185*/
+  margin-top: 183px; /* измениение для 3 проверки бфло 185*/
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
@@ -316,6 +316,7 @@ section {
   grid-template-columns: repeat(2, 1fr);
 }
 /*                                следующая секция                    */
+
 .background-image-brown .p1-text-effect-column {
   color: var(--translucent);
   font-weight: 400;
@@ -330,6 +331,27 @@ section {
   color: #b09a81;
 }
 
+#premature-optimization .content {
+  height: max-content;
+  bottom: 100px;
+}
+
+#premature-optimization {
+  height: max-content;
+  background-color: var(--brown);
+}
+
+#premature-optimization * {
+  text-align: left;
+}
+
+#premature-optimization .mp > h2 {
+  color: var(--main);
+}
+
+#premature-optimization::before {
+  height: max-content;
+}
 /*  footer */
 
 footer {
