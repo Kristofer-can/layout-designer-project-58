@@ -104,8 +104,9 @@ h3 {
 }
 
 .header-title h1 {
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box;
+  margin-top: 0px;
+  /* padding-top: 100px; */
 }
 
 .orange {
@@ -116,13 +117,13 @@ h3 {
   position: absolute;
   height: 525px;
   /* width: 1083px; */
-  top: -50px;
+  top: 55px;
   right: -270px;
   z-index: 4; /* измениение для 3 проверки этого не было */
 }
 
 .header-text {
-  margin-top: 183px; /* измениение для 3 проверки бфло 185*/
+  margin-top: 160px; /* измениение для 3 проверки бфло 185*/
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
@@ -177,9 +178,9 @@ main {
 }
 .anawer-height {
   position: relative;
-  min-width: 1440px;
+  width: 100%;
   /* width: 100%; исправила */
-  height: 714px;
+  height: 680px;
 }
 
 .title-who-distortions {
@@ -187,7 +188,12 @@ main {
 }
 
 .title-who-distortions h1 {
-  margin-bottom: 30px;
+  margin: 0px;
+  font-size: 60px;
+}
+
+.title-who-distortions p {
+  margin: 20px 0;
 }
 
 .video-who-distortions {
