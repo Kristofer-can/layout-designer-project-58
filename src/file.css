@@ -15,7 +15,7 @@ html {
   padding: 0;
 }
 body {
-  width: 1440px;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -23,8 +23,8 @@ body {
 header,
 main,
 footer {
-  /* padding: 0;
-  margin: 0; */
+  padding: 0;
+  margin: 0;
   font: 16px/1.6em "Open Sans", sans-serif;
   color: var(--dark);
   position: relative;
@@ -63,8 +63,7 @@ h3 {
   position: absolute;
   left: 0;
   top: 0;
-  width: 100%;
-  min-height: 914px;
+  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1; /* тут должно быть на 90% прозрачность */
@@ -85,12 +84,11 @@ h3 {
 
 .content {
   position: relative;
-  max-width: 1110px;
-  height: 914px;
+  width: 1110px;
+  height: 100%;
   left: 165px;
-  top: 100px;
-  bottom: 100px;
-  padding: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .header-title h1,
@@ -100,6 +98,7 @@ h3 {
 
 .header-title h1 {
   margin: 0;
+  padding: 0;
 }
 
 .orange {
@@ -166,12 +165,13 @@ h3 {
 /*                      вторая секция                        */
 
 main {
-  width: 1440px;
+  width: 100%; /* исправила*/
   margin-top: 100px;
 }
 .anawer-height {
   position: relative;
-  width: 1440px;
+  min-width: 1440px;
+  /* width: 100%; исправила */
   height: 714px;
 }
 
@@ -195,7 +195,7 @@ main {
 /*                                 третья секиця                                     */
 section {
   position: relative;
-  width: 1440px;
+  min-width: 1440px;
   height: 1014px;
 }
 
@@ -346,11 +346,15 @@ section {
 #premature-optimization {
   display: inline-block;
   height: 100%;
+  width: 100%;
   background-color: var(--brown);
 }
 
 #premature-optimization .content {
   height: 100%;
+  width: 1110px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   display: inline-block;
 }
 
@@ -360,6 +364,7 @@ section {
 
 #premature-optimization::before {
   display: inline-block;
+  width: 100%;
   height: 100%;
 }
 
