@@ -101,7 +101,6 @@ h3 {
 .header-title h1,
 .header-title p {
   text-align: left;
-  font: 16px/1.6em "Open Sans";
 }
 
 .header-title h1 {
@@ -187,7 +186,7 @@ main {
   width: 100%; /* исправила*/
   margin-top: 100px;
 }
-.anawer-height {
+.answer-height {
   position: relative;
   width: 100%;
   /* width: 100%; исправила */
@@ -219,7 +218,7 @@ main {
 /*                                 третья секиця                                     */
 section {
   position: relative;
-  min-width: 1440px;
+  min-width: 1110px;
   height: 1014px;
 }
 
