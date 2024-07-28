@@ -101,6 +101,7 @@ h3 {
 .header-title h1,
 .header-title p {
   text-align: left;
+  font: 16px/1.6em "Open Sans";
 }
 
 .header-title h1 {
@@ -161,7 +162,7 @@ h3 {
   color: #2a2626;
 } */
 .header-text-two div {
-  margin-top: 53px;
+  margin-top: 52px;
 }
 
 .header-a {
