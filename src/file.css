@@ -129,7 +129,7 @@ h3 {
   /* измениение для 3 проверки бфло 185*/
   display: grid;
   position: absolute; /* + */
-  margin-top: 435px; /* + */
+  margin-top: 438px; /* + */
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   grid-column-gap: 30px;
@@ -139,7 +139,7 @@ h3 {
 .header-text-two p {
   height: max-content;
   width: 100%;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 /* .header-text-one {
   position: absolute;
@@ -160,6 +160,10 @@ h3 {
   text-align: left;
   color: #2a2626;
 } */
+.header-text-two div {
+  margin-top: 55px;
+}
+
 .header-a {
   position: relative;
   text-decoration: none;
