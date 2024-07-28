@@ -129,7 +129,7 @@ h3 {
   /* измениение для 3 проверки бфло 185*/
   display: grid;
   position: absolute; /* + */
-  margin-top: 438px; /* + */
+  margin-top: 442px; /* + */
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   grid-column-gap: 30px;
