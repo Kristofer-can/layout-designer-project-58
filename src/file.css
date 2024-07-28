@@ -126,10 +126,10 @@ h3 {
 }
 
 .header-text {
-  margin-top: 160px; /* измениение для 3 проверки бфло 185*/
+  /* измениение для 3 проверки бфло 185*/
   display: grid;
   position: absolute; /* + */
-  margin-top: 440px; /* + */
+  margin-top: 435px; /* + */
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   grid-column-gap: 30px;
