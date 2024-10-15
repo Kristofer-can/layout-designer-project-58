@@ -126,7 +126,7 @@ h3 {
 }
 
 .header-img {
-  height: 525px;
+  height: 517px;
 }
 
 .header-text {
@@ -200,7 +200,7 @@ h3 {
 .video-who-distortions {
   /* position: relative; */
   text-align: center;
-  padding-bottom: 12px;
+  /* padding-bottom: 12px; */
 }
 
 .filter {
