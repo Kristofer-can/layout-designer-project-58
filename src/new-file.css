@@ -200,6 +200,8 @@ h3 {
 .video-who-distortions {
   /* position: relative; */
   text-align: center;
+  height: min-content;
+  height: 517px;
   /* padding-bottom: 12px; */
 }
 
