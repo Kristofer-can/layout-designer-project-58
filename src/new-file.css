@@ -99,7 +99,7 @@ h3 {
 
 .header-title {
   position: relative;
-  z-index: 6;
+  z-index: 7;
 }
 .header-title h1,
 .header-title p {
@@ -122,7 +122,7 @@ h3 {
   width: 979px;
   top: 55px;
   left: 461px;
-  z-index: 4; /*измениение для 3 проверки этого не было */
+  z-index: 6; /*измениение для 3 проверки этого не было */
 }
 
 .header-img {
@@ -131,7 +131,7 @@ h3 {
 
 .header-text {
   display: grid;
-  margin-top: 182px;
+  margin-top: 185px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   grid-column-gap: 30px;
@@ -181,6 +181,7 @@ h3 {
   /* margin-top: 100px; */
   /* display: block; */
   /* padding: 100px; */
+  /* padding-bottom: 16px; */
 }
 
 .title-who-distortions {
@@ -193,12 +194,13 @@ h3 {
 }
 
 .title-who-distortions p {
-  margin: 20px 0 30px 0;
+  margin: 27px 0 30px 0;
 }
 
 .video-who-distortions {
   /* position: relative; */
   text-align: center;
+  padding-bottom: 12px;
 }
 
 .filter {
