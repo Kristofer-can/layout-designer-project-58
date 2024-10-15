@@ -144,7 +144,7 @@ h3 {
   /* top: 55px;
   left: 461px;
   /* right: -270px; */
-  /* z-index:  4; измениение для 3 проверки этого не было */
+  z-index: 4;
 }
 
 .header-text {
