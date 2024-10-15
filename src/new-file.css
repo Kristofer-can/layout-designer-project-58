@@ -102,6 +102,10 @@ h3 {
     padding-bottom: 100px; */
 }
 
+.header-title {
+  position: relative;
+  z-index: 6;
+}
 .header-title h1,
 .header-title p {
   text-align: left;
@@ -181,7 +185,7 @@ h3 {
     color: #2a2626;
   } */
 .header-text-two div {
-  margin-top: 40px;
+  margin-top: 52px;
 }
 
 .header-a {
