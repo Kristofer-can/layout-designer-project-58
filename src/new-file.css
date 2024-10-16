@@ -387,7 +387,7 @@ section {
   background-color: var(--brown);
 }
 
-#premature-optimization .content {
+/* #premature-optimization .content {
   position: absolute;
   height: 100%;
   width: 1110px;
@@ -399,7 +399,7 @@ section {
   margin: auto;
   padding-top: 100px;
   padding-bottom: 100px;
-}
+} */
 
 #premature-optimization * {
   text-align: left;
@@ -435,6 +435,7 @@ section {
   padding-bottom: 100px;
   z-index: 5;
 }
+
 /*  footer */
 
 footer {
