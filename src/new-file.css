@@ -457,14 +457,21 @@ footer {
   /* padding: 38px 55px; */
 }
 
+.mr-55 {
+  margin: 55px;
+}
+
 .bloc-email * {
   color: var(--white);
   /* margin-right: 55px; */
 }
-.p2-text-effect-column {
+/* .p2-text-effect-column {
   margin: 55px;
-}
+} */
 
+.left-margin {
+  margin-left: 7px;
+}
 .text-top {
   margin-top: 38px;
   margin-bottom: 9px;
