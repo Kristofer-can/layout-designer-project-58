@@ -74,7 +74,7 @@ h3 {
 
 .background-image-gray {
   background-color: var(--light);
-  min-height: 914px;
+  /* min-height: 914px; */
   z-index: 2;
 }
 
@@ -309,6 +309,9 @@ section {
 
 /*                              четвертая секция                           */
 
+section {
+  position: relative;
+}
 .effect-fon {
   /* height: 100%; */
 }
@@ -332,6 +335,7 @@ section {
   width: 400;
   margin: 0;
   font-weight: 400;
+  line-height: 28.8px;
 }
 
 .p2-text-effect-column {
@@ -339,11 +343,12 @@ section {
   font-family: "Neucha", cursive;
   line-height: 1.2;
   font-weight: 400;
+  margin-top: 30px;
 }
 
 .the-title-phrase {
   background: var(--brown);
-  padding: 5px;
+  padding: 5px 10px;
   margin: 100px 0 20px;
   font-family: "Open Sans", sans-serif;
   color: var(--white);
@@ -355,6 +360,10 @@ section {
   margin: 0;
   padding: 0;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.mp > * {
+  margin: 0;
 }
 /*                                следующая секция                    */
 
