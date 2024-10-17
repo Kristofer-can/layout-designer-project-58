@@ -297,7 +297,7 @@ section {
   width: 1110px;
 }
 
-.effect-сolumn > h2 {
+.effect-column > h2 {
   margin: 0;
   padding: 0;
 }
@@ -369,7 +369,7 @@ section {
   font-weight: 400;
 }
 
-.background-image-brown > .effect-сolumn {
+.background-image-brown > .effect-column {
   color: var(--white);
 }
 
