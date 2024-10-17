@@ -136,11 +136,11 @@ h3 {
 /*                      вторая секция                        */
 main header {
   z-index: 2;
+  margin-bottom: -200px;
 }
 #preview-image {
   position: relative;
   padding-top: 100px;
-  margin-bottom: -100px;
 }
 .title-who-distortions {
   text-align: center;
@@ -160,6 +160,7 @@ main header {
   margin: auto;
   height: 517px;
   width: 919px;
+  padding-bottom: 100px;
 }
 
 /*                                 третья секиця                                     */
