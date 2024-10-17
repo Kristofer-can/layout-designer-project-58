@@ -70,7 +70,7 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1; /* тут должно быть на 90% прозрачность */
-  z-index: 1;
+  z-index: -1;
 }
 
 .background-image-gray {
@@ -297,7 +297,7 @@ section {
   width: 1110px;
 }
 
-.effect-сolumn h2 {
+.effect-сolumn > h2 {
   margin: 0;
   padding: 0;
 }
@@ -369,7 +369,7 @@ section {
   font-weight: 400;
 }
 
-.background-image-brown .effect-сolumn {
+.background-image-brown > .effect-сolumn {
   color: var(--white);
 }
 
