@@ -134,7 +134,7 @@ h3 {
   background: #ea7600;
 }
 /*                      вторая секция                        */
-header {
+main header {
   z-index: 2;
 }
 #preview-image {
