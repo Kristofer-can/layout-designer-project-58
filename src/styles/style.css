@@ -235,6 +235,14 @@ main header {
   text-align: left;
 }
 
+.mp > * {
+  margin: 0;
+}
+
+.bloc-email * {
+  color: var(--white);
+}
+
 .five-cards-hover:hover,
 .five-cards-hover:hover * {
   background: var(--main);
@@ -328,10 +336,6 @@ section {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.mp > * {
-  margin: 0;
-}
-
 /*                                следующая секция                    */
 
 .new {
@@ -365,7 +369,10 @@ section {
   font-weight: 400;
 }
 
-.background-image-brown .effect-сolumn,
+.background-image-brown .effect-сolumn {
+  color: var(--white);
+}
+
 .background-image-brown p {
   color: var(--white);
 }
@@ -386,9 +393,6 @@ section {
 }
 
 /*              footer                 */
-.bloc-email * {
-  color: var(--white);
-}
 
 .bloc-email {
   background: var(--main-dark);
@@ -416,6 +420,7 @@ section {
   grid-template-rows: 50px;
   margin-right: 55px;
 }
+
 input {
   box-sizing: border-box;
   padding: 15px;
@@ -428,7 +433,7 @@ input::placeholder {
   font-size: 13px;
 }
 
-.bloc-botton input {
+.bloc-botton > input {
   margin: 0;
   color: #757575;
   border: 0;
