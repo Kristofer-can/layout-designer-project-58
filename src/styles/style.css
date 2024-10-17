@@ -27,7 +27,7 @@ footer {
   position: relative;
   padding: 0;
   margin: 0;
-  font: 16px/1.6em "Open Sans";
+  font: 16px/1.6em "Open Sans", sans-serif;
   color: var(--dark);
 }
 
@@ -40,7 +40,7 @@ h1,
 h2,
 h3 {
   line-height: 1.2em;
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   margin: 0;
 }
 
@@ -61,7 +61,7 @@ h3 {
 
 .background-image::before {
   content: "";
-  background-image: url "(../img/background.png)";
+  background-image: url("../img/background.png");
   width: 100%;
   position: absolute;
   left: 0;
@@ -264,7 +264,7 @@ main header {
   margin-top: 0;
   margin-bottom: 40px;
   font-size: 64px;
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   line-height: 1;
 }
 
@@ -296,7 +296,7 @@ section {
 
 .p1-text-effect-column {
   font-size: 24px;
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   color: var(--translucent-dark);
   width: 400;
   margin: 0;
@@ -306,7 +306,7 @@ section {
 
 .p2-text-effect-column {
   font-size: 34px;
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   line-height: 1.2;
   font-weight: 400;
   margin-top: 30px;
@@ -386,6 +386,9 @@ section {
 }
 
 /*              footer                 */
+.bloc-email * {
+  color: var(--white);
+}
 
 .bloc-email {
   background: var(--main-dark);
@@ -395,10 +398,6 @@ section {
 
 .mr-55 {
   margin: 55px;
-}
-
-.bloc-email * {
-  color: var(--white);
 }
 
 .left-margin {
@@ -417,9 +416,20 @@ section {
   grid-template-rows: 50px;
   margin-right: 55px;
 }
+input {
+  box-sizing: border-box;
+  padding: 15px;
+  height: 50px;
+  margin: 0;
+}
+
+input::placeholder {
+  color: #757575;
+  font-size: 13px;
+}
 
 .bloc-botton input {
-  margin: 0px;
+  margin: 0;
   color: #757575;
   border: 0;
 }
@@ -435,8 +445,7 @@ button {
 }
 
 button::before {
-  content: url "(../img/send.svg)";
-  /* background: url(../img/send.svg); */
+  content: url("../img/send.svg");
   width: 70px;
   height: 50px;
   opacity: 1;
@@ -454,18 +463,6 @@ button:hover {
 
 label {
   display: none;
-}
-
-input {
-  box-sizing: border-box;
-  padding: 15px;
-  height: 50px;
-  margin: 0;
-}
-
-input::placeholder {
-  color: #757575;
-  font-size: 13px;
 }
 
 .text-bottom {
