@@ -152,14 +152,15 @@ header {
 .title-who-distortions p {
   margin: 30px 0 30px 0;
 }
-.video-who-distortions {
+
+.video {
   text-align: center;
-}
-.video-who-distortions img {
-  text-align: center;
-  height: min-content;
-  height: 517px;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  display: block;
+  margin: auto;
+  height: 569px;
   width: 919px;
+  padding-bottom: 16px;
 }
 .filter {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
